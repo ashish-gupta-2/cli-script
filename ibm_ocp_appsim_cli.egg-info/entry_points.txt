@@ -1,0 +1,2 @@
+[console_scripts]
+ocpappsim = ibm_ocp_appsim_cli.commands:cli

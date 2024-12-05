@@ -1,0 +1,23 @@
+# OcpAppSim settings file template
+# [1] OcpAppSim deployment settings
+storage_class: ocs-storagecluster-cephfs
+access_mode: ReadWriteMany
+pvc_size: 1Gi
+pvc_shared: yes
+pod_count: 3
+# [2] Settings for the workload simulator
+app_name: simdata.pl
+fs_used: 65
+init_fill: 25m
+hourly_new: default
+hourly_mod: default
+hourly_del: default
+size_min: default
+size_max: default
+random: medium
+# [3] Uncomment to use latest dev branch container image (for dev&test purposes)
+#container_image: docker-na.artifactory.swg-devops.com/hyc-abell-devops-team-ocpappsim-docker-local/ocpappsim-dev:latest
+# [4] Uncomment only if you want to overwrite cli parameter values
+#name_space: ocpappsim-ns
+
+

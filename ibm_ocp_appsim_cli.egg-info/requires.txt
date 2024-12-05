@@ -1,0 +1,5 @@
+Click
+openshift
+requests
+texttable
+urllib3

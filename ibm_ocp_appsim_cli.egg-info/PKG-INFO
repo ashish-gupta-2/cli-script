@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ibm-ocp-appsim-cli
+Version: 0.2
+Summary: OCP AppSim CLI
+Home-page: https://github.ibm.com/spectrum-fusion/ocpappsim
+Author: The ocpappsim crew
+Author-email: daniel.michel@de.ibm.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ibm-ocp-appsim-cli
+ OCP Application Workload Simulation
+
+ 
